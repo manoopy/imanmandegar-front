@@ -1,0 +1,13 @@
+@import url(font.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Vazirmatn;
+    font-feature-settings: "ss01";
+    @apply text-[16px] text-neutral-700 scroll-smooth overflow-x-hidden;
+  }
+}
