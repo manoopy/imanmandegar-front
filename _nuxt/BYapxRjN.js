@@ -1,0 +1,1 @@
+import{u as e}from"./EL1MBtLP.js";import{p as i}from"./BDlV69Nx.js";const a=i(),n=i(),f=async()=>({dotCountOfString:a,ayatWithSpecificNoqteCount:n,getDotCountOfString:async t=>{const{data:o}=await e(`/GetDotCountOfString/${t}`);a.value=o.value},getAyatWithSpecificNoqteCount:async t=>{const{data:o}=await e(`/GetAyatWithSpecificNoqteCount/${t}`);n.value=o.value}});export{f as u};
